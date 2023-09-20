@@ -1,0 +1,10 @@
+Install:
+- oh-my-zsh
+- iterm2
+- powerlevel10k (ozsh plugin)
+- cava (music visualizer - https://github.com/karlstav/cava)
+- Background Music (audio utility - https://github.com/kyleneideck/BackgroundMusic)
+- karabiner (to set capslock as hyper key)
+- yabai (window tiling manager)
+- skhd (shortcuts for yabai)
+- 
