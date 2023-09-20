@@ -1,4 +1,5 @@
-Install:
+# Install #
+- homebrew
 - oh-my-zsh
 - iterm2
 - powerlevel10k (ozsh plugin)
@@ -7,4 +8,7 @@ Install:
 - karabiner (to set capslock as hyper key)
 - yabai (window tiling manager)
 - skhd (shortcuts for yabai)
-- 
+
+# Configs #
+- set fonts on /iterm to iterm
+- ?
