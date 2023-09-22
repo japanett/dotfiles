@@ -1,14 +1,14 @@
 # -- Changing Window Focus --
 
 # change window focus within space
-alt - down : yabai -m window --focus south
-alt - up : yabai -m window --focus north
-alt - left : yabai -m window --focus west
-alt - right : yabai -m window --focus east
+hyper - j : yabai -m window --focus south
+hyper - k : yabai -m window --focus north
+hyper - h : yabai -m window --focus west
+hyper - l : yabai -m window --focus east
 
 #change focus between external displays (left and right)
-alt + shift - left: yabai -m display --focus west
-alt + shift - right: yabai -m display --focus east
+alt + shift - left : yabai -m display --focus west
+alt + shift - right : yabai -m display --focus east
 
 # -- Modifying the Layout --
 
@@ -23,8 +23,6 @@ hyper - x : yabai -m space --mirror x-axis
 
 # toggle window float
 hyper - t : yabai -m window --toggle float --grid 4:4:1:1:2:2
-
-
 
 # -- Modifying Window Size --
 
@@ -43,19 +41,19 @@ hyper - left : yabai -m window --swap west
 hyper - right : yabai -m window --swap east
 
 # move window and split
-ctrl + shift - down : yabai -m window --warp south
-ctrl + shift - up : yabai -m window --warp north
-ctrl + shift - left : yabai -m window --warp west
-ctrl + shift - right : yabai -m window --warp east
+ctrl + shift - j : yabai -m window --warp south
+ctrl + shift - k : yabai -m window --warp north
+ctrl + shift - h : yabai -m window --warp west
+ctrl + shift - l : yabai -m window --warp east
 
 # move window to display left and right
-# shift + alt - left : yabai -m window --display west; yabai -m display --focus west;
-# shift + alt - right : yabai -m window --display east; yabai -m display --focus east;
+# shift + alt - h : yabai -m window --display west; yabai -m display --focus west;
+# shift + alt - l : yabai -m window --display east; yabai -m display --focus east;
 
 
 # move window to prev and next space
-ctrl - p : yabai -m window --space prev;
-ctrl - n : yabai -m window --space next;
+# ctrl - p : yabai -m window --space prev;
+# ctrl - n : yabai -m window --space next;
 
 # move window to space #
 hyper - 1 : yabai -m window --space 1;
@@ -69,6 +67,6 @@ hyper - 7 : yabai -m window --space 7;
 # -- Starting/Stopping/Restarting Yabai --
 
 # stop/start/restart yabai
-ctrl + alt - q : brew services stop yabai
+# ctrl + alt - q : brew services stop yabai
 ctrl + alt - s : yabai --start-service
 ctrl + alt - r : yabai --restart-service
