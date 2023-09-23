@@ -8,7 +8,7 @@
 - karabiner (to set capslock as hyper key)
 - yabai (window tiling manager)
 - skhd (shortcuts for yabai)
+- brew install ripgrep (need this for telescope to work)
 
 # Configs #
 - set fonts on /iterm to iterm
-- ?

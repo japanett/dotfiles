@@ -1,0 +1,41 @@
+# Open tree #
+<leader> ee
+
+# Create new file while in tree directory 
+a
+# Rename file
+r
+
+# Telescope #
+
+# Open telescope
+<leader>ff
+# Fuzzy find
+<leader>ff - find cwd
+<leader>fr find recent files
+<leader>fs find string in cwd
+<leader>fc find string under cursor in cwd
+
+# Nagivate (C = Ctrl)
+C-k - previous
+C-j - next
+C-q send selected to qflist 
+
+# Split file #
+<leader> sv
+ctrl h/l - navigate between tab
+<leader> sx - close tab
+
+# Search and replace
+:[range]s/{pattern}/{string}/[flags] [count] - https://linuxize.com/post/vim-find-replace/ 
+
+# Jump to relative line
+[line numeber] j/k
+
+# Jump to first / last line in file
+gg / G
+
+# Select lines
+shift-v + d (cut/delete)
+shift-v + y (copy/yank)
+shift-v + p (paste)
