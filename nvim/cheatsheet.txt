@@ -39,3 +39,73 @@ gg / G
 shift-v + d (cut/delete)
 shift-v + y (copy/yank)
 shift-v + p (paste)
+
+##### IDEA #####
+
+#white Suggestion
+Alt + Enter
+
+### Navigation ###
+#blue Open project tree
+⌘ + 1
+
+#blue View recent files
+⌘ + E
+
+#blue Go to line number
+⌘ + L
+
+#blue Put cursor where I need 
+⌘ + Shift + Enter
+
+#blue Go Back/Foward
+⌘ + [/]
+
+#blue Find usages
+\ + ]\]
+
+#blue Close find
+⌘ + 3
+
+#blue Jump words
+Alt + left/right
+
+#blue Select words
+Alt + up
+
+#blue Go to declaration
+⌘ + B
+
+#blue Telescope
+Shift + Shift
+
+#blue Nagivation Bar
+⌘ + up
+
+#blue Navigate tabs
+⌘ + Shift + [/]
+
+#blue Tabs (Plugin Tab shifter)
+ctrl+alt+] - shift right
+ctrl+alt+[ - shift left
+ctrl+alt+P - shift up
+ctrl+alt+; - shift down
+shift+alt+[ - stretch splitter left
+shift+alt+] - stretch splitter right
+shift+alt+P - stretch splitter up
+shift+alt+; - stretch splitter down
+alt+ctrl+shift+ []P; - focus
+
+
+### Nagivation ###
+
+### Editing ###
+#white Move whole method
+⌘ + Shift + up/down
+
+#white Rename (refactor)
+Shift + F6
+
+#white Run test
+Ctrl + Ctrl
+
