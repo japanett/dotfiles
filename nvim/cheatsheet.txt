@@ -108,4 +108,6 @@ Shift + F6
 
 #white Run test
 Ctrl + Ctrl
+Shift + Ctrl + R - Selected test
+Ctrl + R - Last test
 
