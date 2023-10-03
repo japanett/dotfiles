@@ -27,5 +27,10 @@
     "key": "f12",
     "command": "-editor.action.revealDefinition",
     "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+  "key": "enter",
+  "command": "list.select",
+  "when": "listFocus && !inputFocus"
   }
 ]
